@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Greg Hilliard– Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    :root{
+      --purdue-gold:#CFB991; /* official Purdue gold */
+      --purdue-black:#000000;
+    }
+    .gold{ color: var(--purdue-gold); }
+    .gold-bg{ background-color: var(--purdue-gold);}    
+    .gold-border{ border-color: var(--purdue-gold);} 
+    .section-title{ position:relative; padding-bottom:.35rem; }
+    .section-title:after{ content:""; position:absolute; left:0; bottom:0; width:72px; height:3px; background:var(--purdue-gold); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+  <!-- Top bar accent -->
+  <div class="w-full h-1" style="background:var(--purdue-gold)"></div>
+
+  <main class="max-w-5xl mx-auto p-6 md:p-10">
+    <!-- Header Card -->
+    <section class="bg-white shadow-sm rounded-2xl border gold-border p-6 md:p-8">
+      <div class="grid md:grid-cols-3 gap-6 items-center">
+        <div class="flex md:block justify-center">
+          <img src="gregg.JPG" alt="Greg Hilliard" class="w-40 h-40 md:w-44 md:h-64 rounded-2xl object-cover ring-2"
+          style="--tw-ring-color: var(--purdue-gold);" />
+        </div>
+        <div class="md:col-span-2">
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Greg Hilliard III</h1>
+          <p class="mt-1 text-lg">Mechanical Engineering Student @ Purdue University, Indianapolis</p>
+          <div class="mt-4 flex flex-wrap gap-3 text-sm">
+            <a href="mailto:ghilliar@purdue.edu" class="inline-flex items-center px-3 py-1.5 rounded-full border gold-border hover:bg-gray-50">ghilliar@purdue.edu</a>
+            <span class="inline-flex items-center px-3 py-1.5 rounded-full border gold-border">Indianapolis, IN</span>
+            <a href="tel:+13173890653" class="inline-flex items-center px-3 py-1.5 rounded-full border gold-border hover:bg-gray-50">(317) 389-0653</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="mt-8 grid lg:grid-cols-3 gap-8">
+      <!-- Left column (quick facts) -->
+      <aside class="lg:col-span-1 space-y-6">
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Education</h2>
+          <div class="mt-4">
+            <p class="font-semibold">Purdue University — Indianapolis, IN</p>
+            <p>B.S. Mechanical Engineering</p>
+            <p class="text-sm text-gray-600">Expected Graduation: May 2027</p>
+            <p class="text-sm text-gray-600">GPA: 3.00</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Skills</h2>
+          <ul class="mt-4 grid grid-cols-2 gap-2 text-sm">
+            <li class="px-3 py-1.5 border gold-border rounded-md">SIEMENS NX</li>
+            <li class="px-3 py-1.5 border gold-border rounded-md">MATLAB</li>
+            <li class="px-3 py-1.5 border gold-border rounded-md">C++</li>
+            <li class="px-3 py-1.5 border gold-border rounded-md">PSPICE</li>
+            <li class="px-3 py-1.5 border gold-border rounded-md">Visual Studio</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Related Courses</h2>
+          <ul class="mt-4 list-disc ml-5 space-y-1 text-sm">
+            <li>Intro to Engineering</li>
+            <li>Intro to Programming</li>
+            <li>Modern Mechanics</li>
+            <li>Mechanical Engineering Laboratory</li>
+            <li>Thermodynamics 1 & 2</li>
+            <li>Heat, Electricity, and Optics</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Goals</h2>
+          <p class="mt-4 text-sm leading-relaxed">I am eager to work in an environment where I can continuously learn and develop my skills. I am passionate and motivated by improvement and driven by curiosity. My goal is to contribute to and participate in innovation, while growing as both a student and an engineer.</p>
+        </div>
+      </aside>
+
+      <!-- Right column -->
+      <section class="lg:col-span-2 space-y-6">
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Objective</h2>
+          <p class="mt-4">To obtain an internship and gain practical experience in the field of mechanical engineering to boost my resume and learn more about my field of choice.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Projects</h2>
+          <div class="mt-4 space-y-5">
+            <div>
+              <h3 class="font-semibold">Engineering Windmill Turbine Project <span class="text-sm text-gray-600">(Fall 2024)</span></h3>
+              <ul class="list-disc ml-5 mt-2 space-y-1 text-sm">
+                <li>Fully 3D printed a fan blade that generated electricity through rotation.</li>
+                <li>Integrated magnets for power generation and testing.</li>
+              </ul>
+              <a class="mt-2 inline-block underline gold" href="https://docs.google.com/presentation/d/1lFv9YpVibyT6hi6ugomVkVqb8aRTPN-xhmxsVtf3tyI/edit?usp=sharing" target="_blank" rel="noreferrer">View slides</a>
+            </div>
+            <div>
+              <h3 class="font-semibold">Student Writing Consultant <span class="text-sm text-gray-600">(Aug 2023 – Dec 2023)</span></h3>
+              <ul class="list-disc ml-5 mt-2 space-y-1 text-sm">
+                <li>Collaborated with an AI development company.</li>
+                <li>Wrote a business report proposing solutions to a client problem.</li>
+              </ul>
+              <a class="mt-2 inline-block underline gold" href="https://docs.google.com/document/d/1hcldtJVS0O2YOd0BlnniIBSD7POQNFHz5xR3syPy4uw/edit?usp=sharing" target="_blank" rel="noreferrer">View report</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border gold-border p-6">
+          <h2 class="section-title text-xl font-semibold">Experience</h2>
+          <div class="mt-4 space-y-5 text-sm">
+            <div>
+              <div class="flex items-baseline justify-between">
+                <h3 class="font-semibold">Mathnasium, Carmel, IN — Math Instructor/Tutor</h3>
+                <span class="text-gray-600">Jun 2024 – Present</span>
+              </div>
+              <ul class="list-disc ml-5 mt-2 space-y-1">
+                <li>Supported students with questions and problem‑solving in‑center.</li>
+                <li>Assessed students for placement and tracked progress.</li>
+                <li>Handled administrative tasks as needed.</li>
+                <li>Promoted to Senior Instructor within 6 months; earned Instructor of the Month.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="flex items-baseline justify-between">
+                <h3 class="font-semibold">Greenbriar Elementary School — Volunteer</h3>
+                <span class="text-gray-600">Feb 2023 – Mar 2023</span>
+              </div>
+              <ul class="list-disc ml-5 mt-2 space-y-1">
+                <li>Helped students with assignments and projects; led reading time.</li>
+                <li>Assisted teachers with classroom tasks and student redirection.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="flex items-baseline justify-between">
+                <h3 class="font-semibold">Kitchen United, Carmel, IN — Line Cook</h3>
+                <span class="text-gray-600">Jun 2021 – Aug 2022</span>
+              </div>
+              <ul class="list-disc ml-5 mt-2 space-y-1">
+                <li>Prepped and cooked for multiple restaurant brands within a ghost kitchen model.</li>
+                <li>Covered cashiering, prep, quality control, and cleaning duties.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer note -->
+    <footer class="text-center text-xs text-gray-500 mt-10">
+      <p>Designed with a Purdue-inspired black & gold accent palette. © <span id="y"></span> Greg Hilliard</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
